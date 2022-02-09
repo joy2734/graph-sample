@@ -31,6 +31,7 @@ export interface NodeProps {
   nodeTotalNodes: number;
   numberOfChildrenPlacement: NumberOfChildrenPlacement;
   onClick?: (ev?: React.MouseEvent<SVGElement>) => void;
+  onDetailClick? : (ev?: React.MouseEvent<SVGElement>) => void;
   style?: React.CSSProperties;
   textColor: string;
   treemapId?: string;
@@ -53,6 +54,7 @@ const Node: React.FunctionComponent<NodeProps> = ({
   label,
   nodeTotalNodes,
   onClick,
+  onDetailClick,
   textColor,
   treemapId,
   url,
@@ -121,7 +123,7 @@ const Node: React.FunctionComponent<NodeProps> = ({
       onMouseMove={disableTooltip ? undefined : handleMouseMove}
       transform={`translate(${currentXTranslated},${currentYTranslated})`}
       id={`${id}`}
-      onClick={hasChildren ? onClick : null}
+      onClick={hasChildren ? onClick : onDetailClick}
       style={{ cursor }}
     >
       <rect

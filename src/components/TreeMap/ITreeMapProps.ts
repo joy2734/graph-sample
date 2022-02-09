@@ -3,6 +3,7 @@ import TreeMap from "../TreeMap";
 import { IBreadcrumbItem } from "../Breadcrumb";
 import { NumberOfChildrenPlacement } from "../Node";
 import { TooltipPlacement } from "../Tooltip/types";
+import React = require("react");
 
 export interface ITreeMapProps<TreeMapInputData> {
   /**
@@ -238,6 +239,8 @@ export interface ITreeMapProps<TreeMapInputData> {
   levelsToDisplay?: number;
 
   splitRegExp?: RegExp;
+
+  onDetailChartView: Function
 }
 
 export enum ColorModel {

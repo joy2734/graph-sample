@@ -54,6 +54,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
     tooltipOffsetX: 0,
     tooltipOffsetY: 0,
     levelsToDisplay: 1,
+    onDetailChartView : null
   };
 
   constructor(props: ITreeMapProps<TreeMapInputData>) {
@@ -264,6 +265,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
         label={name}
         nodeTotalNodes={nodeTotalNodes}
         onClick={!isSelectedNode ? this._onNodeClick : undefined}
+        onDetailClick={this._onDetailNodeClick}
         treemapId={treemapId}
         url={url}
         value={!hideValue && formattedValue}
@@ -286,6 +288,11 @@ class TreeMap<TreeMapInputData> extends React.Component<
 
   private _onNodeClick = (ev: React.MouseEvent<SVGElement>) => {
     this._zoomTo(parseInt(ev.currentTarget.id));
+  };
+
+  private _onDetailNodeClick = (ev: React.MouseEvent<SVGAElement>) => {
+    console.log('cytoscape loading...', ev.currentTarget.id)
+    this.props.onDetailChartView(ev.currentTarget.id)
   };
 
   private _getColorsFromNode(
