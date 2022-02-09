@@ -212,7 +212,6 @@ class TreeMap<TreeMapInputData> extends React.Component<
     const { xScaleFunction, yScaleFunction, selectedNode } = this.state;
 
     const { customId, data, x0, x1, y0, y1 } = node;
-
     const name = data[namePropInData];
     const url = data[linkPropInData];
     const nodeClassNameFromData = data["className"];

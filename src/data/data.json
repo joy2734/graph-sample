@@ -1,0 +1,597 @@
+{
+    "brmCls1Nm": "전체",
+    "children":[
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 80,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "국정홍보"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 6084,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "일반행정"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "과학기술",
+            "count": 380,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "방송통신"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교통물류",
+            "count": 223,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "항공·공항"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "국토관리",
+            "count": 121,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "산업단지"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "국토관리",
+            "count": 703,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "주택"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 667,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "노인·청소년"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 717,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "보육·가족및여성"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 1419,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "사회복지일반"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 296,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "취약계층지원"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 72,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "통상"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "식품건강",
+            "count": 1765,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "식품의약안전"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재난안전",
+            "count": 487,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "경찰"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재난안전",
+            "count": 2468,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "안전관리"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 206,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "금융"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 112,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "기획재정"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 840,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "산업금융"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 1526,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "재정·금융"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 65,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "방위력개선"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 169,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "보훈"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 23,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "전력유지"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 586,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "대기"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 973,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "폐기물"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 604,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "국가통계"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 39,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "국민권익·인권"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 52,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "국정운영"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 587,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "지방행정·재정지원"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "과학기술",
+            "count": 748,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "과학기술진흥"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "과학기술",
+            "count": 53,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "우정"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교육",
+            "count": 342,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "고등교육"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교통물류",
+            "count": 1905,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "도로"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교통물류",
+            "count": 1025,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "물류등기타"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교통물류",
+            "count": 1301,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "철도"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교통물류",
+            "count": 344,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "해운·항만"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "농축수산",
+            "count": 1525,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "농업·농촌"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "농축수산",
+            "count": 502,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "해양수산·어촌"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "문화관광",
+            "count": 1280,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "문화체육관광일반"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 409,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "공적연금"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "사회복지",
+            "count": 47,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "기초생활보장"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 199,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "산업기술지원"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 227,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "산업진흥·고도화"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 2013,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "에너지및자원개발"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 302,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "무역및투자유치"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재정금융",
+            "count": 1383,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "세제"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 186,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "병무행정"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 74,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "통일"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 34,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "공정거래"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 71,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "법제"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 326,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "정부자원관리"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "공공행정",
+            "count": 19,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "정부조달"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "과학기술",
+            "count": 626,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "과학기술연구"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교육",
+            "count": 1758,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "교육일반"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교육",
+            "count": 414,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "유아및초·중등교육"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "교육",
+            "count": 884,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "평생·직업교육"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "국토관리",
+            "count": 308,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "수자원"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "국토관리",
+            "count": 2602,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "지역및도시"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "농축수산",
+            "count": 1641,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "임업·산촌"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "문화관광",
+            "count": 1919,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "관광"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "문화관광",
+            "count": 1788,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "문화예술"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "문화관광",
+            "count": 1481,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "문화재"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "문화관광",
+            "count": 695,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "체육"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "법률",
+            "count": 351,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "법무및검찰"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "보건의료",
+            "count": 182,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "건강보험"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "보건의료",
+            "count": 2818,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "보건의료"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 605,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "고용노동"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 2408,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "산업·중소기업일반"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "산업고용",
+            "count": 66,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "원자력기술"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "재난안전",
+            "count": 90,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "해경"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 52,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "병력운영"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "통일외교안보",
+            "count": 264,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "외교"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 793,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "상하수도·수질"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 596,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "자연"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 180,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "해양환경"
+        },
+        {
+            "lodDt": 1642950000000,
+            "brmCls1Nm": "환경기상",
+            "count": 1296,
+            "_score": 0.0,
+            "dataSe": "O",
+            "brmCls2Nm": "환경일반"
+        }
+    ]
+}

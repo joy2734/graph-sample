@@ -6,8 +6,8 @@ import * as chromatic from "d3-scale-chromatic";
 import { hot } from "react-hot-loader";
 
 import * as React from "react";
-// import { data } from "../data/data";
-import { data as generatedData } from "../data/generateData";
+import { result } from "../data/mockData";
+import { data as generatedData } from "../data/data";
 import TreeMap, { ColorModel } from "../components/TreeMap";
 import { NumberOfChildrenPlacement } from "../components/Node";
 
@@ -24,7 +24,7 @@ class App extends React.Component<unknown, { data: TreeMapInPutData }> {
   constructor(props) {
     super(props);
     this.state = {
-      data: generatedData,
+      data: result,
     };
     this.treeMapRef = React.createRef();
   }
@@ -37,34 +37,25 @@ class App extends React.Component<unknown, { data: TreeMapInPutData }> {
   // }
 
   public render() {
+    console.log(this.state);
     return (
       <React.Fragment>
         <ContainerDimensions>
           {({ width }) => {
+            console.log(width);
             return (
               <TreeMap<TreeMapInPutData>
                 ref={this.treeMapRef}
                 id="myTreeMap"
                 width={width}
-                height={400}
+                height={600}
                 data={this.state.data}
                 className="AppTreeMap"
                 nodeClassName="AppTreeMap__node"
                 valueFn={(value: number) => {
+                  //console.log(value, value.toString().charAt(0));
                   return `${value.toString().charAt(0)} min`;
                 }}
-                // levelsToDisplay={2}
-                // tooltipOffsetY={25}
-                // tooltipClassName="MyCustomTooltip"
-                // tooltipPlacement="top"
-                // disableTooltip={true}
-                // valueUnit={"MB"}
-                // svgClassName="AppTreeMap__svg"
-                // paddingInner={2}
-                // onZoom={(level, id, items) => console.log({ level, id, items })}
-                // onTreeMapDidMount={(treeMap: TreeMap<TreeMapInPutData>) =>
-                //   console.log(treeMap.getZoomLevel())
-                // }
                 nodeStyle={{
                   fontSize: 12,
                   paddingTop: 2,
@@ -76,6 +67,7 @@ class App extends React.Component<unknown, { data: TreeMapInPutData }> {
                   chromatic.interpolateSpectral
                 )}
                 colorModel={ColorModel.OneEachChildren}
+                levelsToDisplay={10000}
                 // svgStyle={{fontFamily: "'Courier New', Courier, monospace"}}
                 // nodeStyle={{fill: "black", stroke: "white"}}
                 // disableBreadcrumb={true}
